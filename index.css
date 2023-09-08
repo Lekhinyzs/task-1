@@ -1,0 +1,25 @@
+[data-testid="container"] {
+  display: block;
+  text-align: center;
+  background-color: rgb(245, 238, 238);
+  height: 100vh;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 30px;
+}
+[data-testid="slackDisplayImage"] {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+[data-testid="slackDisplayName"] {
+  color: blueviolet;
+}
